@@ -53,6 +53,7 @@ public class Equacao2GrauFull {
         else  if ( b == 0) {
                 x1 = Math.sqrt(c / a);
                 System.out.println("A equação possui uma raiz real: X = " + x1);
+                System.exit(0);
             } 
         delta = (Math.pow(b, 2.0) - (4 * a * c));
         if ( delta < 0){
