@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Equacao2GrauFull {
+public class Equacao2Grau {
 
     public static void main(String[] args) {
         // Declaração
