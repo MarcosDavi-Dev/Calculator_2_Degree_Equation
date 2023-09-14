@@ -47,6 +47,7 @@ public class Equacao2Grau {
         if (a == 0) {
             x1 = ((-c)/b);
             System.out.println("Se A = 0 então a equação é de 1°, o resultado de x é: " + x1);
+            System.exit(0);
         } else if (a == 0 && b ==0 ){
         	System.out.println("A e B não podem ser 0.");
         }
